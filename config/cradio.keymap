@@ -55,7 +55,7 @@
         // both left thumb keys
         combo_settings {
                 timeout-ms = <300>;
-                key-positions = <33 34>;
+                key-positions = <32 33>;
                 bindings = <&tog SETTINGS>;
         };
     };
