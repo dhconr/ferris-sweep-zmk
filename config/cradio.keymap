@@ -13,7 +13,7 @@
     #define BASE 0
     #define SYM 1
     #define SYM2 2
-    #define SETTINGS 4
+    #define SETTINGS 3
 // -----------------
 
 &mt {
