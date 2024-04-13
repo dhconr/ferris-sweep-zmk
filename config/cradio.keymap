@@ -37,7 +37,7 @@
 						= <&kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT &kp LGUI &kp RGUI>;
 				};
 
-                switch_bt0_and_layer: {
+                switch_bt0_and_layer: switch_bt0_and_layer {
                     label = "Switch to BT0 and toggle layer if needed";
                     compatible = "zmk,behavior-macro";
                     #binding-cells = <0>;
