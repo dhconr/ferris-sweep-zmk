@@ -37,12 +37,12 @@
 						= <&kp LSHIFT &kp RSHIFT &kp LCTRL &kp RCTRL &kp LALT &kp RALT &kp LGUI &kp RGUI>;
 				};
 
-                switch_bt0_and_layer: switch_bt0_and_layer {
-                    label = "Switch to BT0 and toggle layer if needed";
-                    compatible = "zmk,behavior-macro";
-                    #binding-cells = <0>;
-                    bindings = <&tog_if_on SETTINGS &bt BT_SEL 0>;
-                };
+                /* switch_bt0_and_layer: switch_bt0_and_layer { */
+                /*     label = "Switch to BT0 and toggle layer if needed"; */
+                /*     compatible = "zmk,behavior-macro"; */
+                /*     #binding-cells = <0>; */
+                /*     bindings = <&tog_if_on SETTINGS &bt BT_SEL 0>; */
+                /* }; */
 		};
 
     combos {
@@ -75,7 +75,7 @@
 		bindings = <
 		&kp Q &kp W &kp E &kp R &kp T           &kp Y &kp U  &kp I     &kp O   &kp P 
 		&kp A &kp S &kp D &kp F &kp G           &kp H &kp J  &kp K     &kp L &kp IT_OGRV
-		&mt LSHIFT Z &mt LCTRL X &kp C &kp V &kp B           &kp N &kp M  &kp COMMA &mt RCTRL DOT &mt RSHIFT SLASH
+		&mt LSHIFT Z &kp X &kp C &kp V &kp B           &kp N &kp M  &kp COMMA &mt RCTRL DOT &mt RSHIFT SLASH
              &kp BSPC &lt SYM2 TAB           &lt SYM RETURN &kp SPACE
 		>;
 		};
