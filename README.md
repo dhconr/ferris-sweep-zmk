@@ -1,3 +1,4 @@
+The layout below is not the actual keyboard layout and is still being edited.
 ⭐ You might also like: the [Urchin](https://github.com/duckyb/urchin) keyboard ⭐
 
 This layout is inspired by [Seniply by Stevep99](https://stevep99.github.io/seniply/)
