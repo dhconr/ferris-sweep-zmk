@@ -44,13 +44,13 @@ jobs:
       - name: Cradio/Sweep Left Kconfig file
         run: cat build/zephyr/.config | grep -v "^#" | grep -v "^$"
 
-      - name: Rename zmk.uf2
+      - name: Rename zmk.uf2 (Left)
         run: cp build/zephyr/zmk.uf2 cradio_left_nice_nano_v2.uf2
 
       - name: Archive (Cradio/Sweep Left)
         uses: actions/upload-artifact@v4
         with:
-          name: firmware-zmk-sweep
+          name: firmware-zmk-sweep-left
           path: cradio_left_nice_nano_v2.uf2
 
       - name: West Build (Cradio/Sweep Right)
@@ -59,11 +59,11 @@ jobs:
       - name: Cradio/Sweep Right Kconfig file
         run: cat build/zephyr/.config | grep -v "^#" | grep -v "^$"
 
-      - name: Rename zmk.uf2
+      - name: Rename zmk.uf2 (Right)
         run: cp build/zephyr/zmk.uf2 cradio_right_nice_nano_v2.uf2
 
       - name: Archive (Cradio/Sweep Right)
         uses: actions/upload-artifact@v4
         with:
-          name: firmware-zmk-sweep
+          name: firmware-zmk-sweep-right
           path: cradio_right_nice_nano_v2.uf2
